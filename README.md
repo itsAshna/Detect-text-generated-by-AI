@@ -4,7 +4,7 @@
 
 This project explores methods to **differentiate AI-generated text from human-written text** using a variety of machine learning models and engineered features. With the rise of Large Language Models (LLMs) such as GPT-4, Cohere, and LLaMA, distinguishing AI outputs from authentic human writing has become increasingly challenging.
 
-The goal of this project is to evaluate and compare multiple approaches—including stylistic features, readability metrics, perplexity, and compression-based features—to build reliable models for AI text detection.
+The goal of this project is to evaluate and compare multiple approaches, including stylistic features, readability metrics, perplexity, and compression-based features to build reliable models for AI text detection.
 
 ---
 
@@ -15,22 +15,6 @@ The goal of this project is to evaluate and compare multiple approaches—includ
 * Train and evaluate machine learning models (**SVM, XGBoost, MLP**) for classification.
 * Compare performance across internal and external datasets to assess generalization.
 * Provide insights into which features and methods are most effective for AI text detection.
-
----
-
-## 📂 Project Structure
-
-```
-├── Data_Prep.ipynb           # Data preparation & cleaning
-├── Data_Preprocessing.ipynb  # Preprocessing pipeline
-├── FeatureEngineering.py     # Feature extraction (perplexity, readability, compression, etc.)
-├── compresion.ipynb          # Experiments with compression features
-├── SVM_AIDetect.ipynb        # SVM model implementation & tuning
-├── xgboost.ipynb             # XGBoost model training & evaluation
-├── MLP_perplexity.ipynb      # MLP model training with perplexity & other features
-├── main.pdf                  # Full project report with results & analysis
-└── README.md                 # Project documentation
-```
 
 ---
 
